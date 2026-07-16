@@ -1,0 +1,74 @@
+#> Production All x-path.
+==========================Home Step===================================
+Step 1. Email first.
+
+//*[@id="email"]
+
+Step 2. login button click.
+
+//*[@id="root"]/div/div/div/div/div[2]/form/button
+
+==============================Dashboard Step===========================
+
+Step 3. Dashboard element found.
+
+//*[@id="root"]/div/div/main/div/div/div/div[1]/div/p
+
+==============================Template Step===========================
+
+Step 4. Click on template. 
+
+//*[@id="root"]/div/aside/nav/div[3]/button/div[2]/svg
+
+Step 5. Validate Action Colome.
+
+//*[@id="root"]/div/div/main/div/div[3]/div
+
+
+==============================Deploy Step===========================
+
+Step 6. Action Element
+
+//*[@id="root"]/div/div/main/div/div[3]/div/table/thead/tr/th[7]
+
+changes down
+....................................................
+step 7. Click on Three dots .
+
+//*[@id="radix-:r26:"]
+
+Step 8. click on deploy.
+
+//*[@id="radix-:r27:"]/div/button[1]
+
+Step 9. verify the instance is open  // Verify deployment success message
+
+//*[@id="root"]/div/div/main/div/div[1]/div/h1
+
+=========================Instance View ====================================
+
+Step 10. Click on Instance
+
+//*[@id="root"]/div/div/main/div/div[2]/div[2]/button[1]
+
+Step 11. // Click specific Instance row
+
+//*[@id="root"]/div/div/main/div/div[3]/div/div/table/tbody/tr[1]
+
+Step 12. // Validation Main
+
+//*[@id="root"]/div/div/main/div/div[3]/div/div/table/thead/tr/th[12]
+
+=========================Console ====================================
+
+Step 13.Click on three dots
+
+//*[@id="radix-:r6c:"]
+
+Step 14. Click on console 
+
+//*[@id="radix-:r6d:"]/div/button[5]
+
+Step 15. Validate click on console
+
+//*[@id="novnc-container"]/div/canvas
